@@ -78,7 +78,7 @@ class Navbar extends Component {
             <nav className="navbar navbar-expand-lg navbar-dark bg-primary main-nav navbar-togglable">
 
                 <a className="navbar-brand d-lg-none d-block" href="">
-                    <h4>Universal Pipeline</h4>
+                    <h4>Krutik Pipeline</h4>
                 </a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="fa fa-bars"></span>
