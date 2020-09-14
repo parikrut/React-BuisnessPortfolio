@@ -9,6 +9,7 @@ import BodyWorkingProcess from './components/BodyWorkingProcess/BodyWorkingProce
 import BodyWebServices from './components/BodyWebServices/BodyWebServices'
 import BodyProjects from './components/BodyProjects/BodyProjects'
 import BodyReviews from './components/BodyReviews/BodyReviews'
+import Contact from './components/Contact/Contact'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <BodyWebServices/>
       <BodyProjects/>
       <BodyReviews/>
+      <Contact/>
       <Footer/>
     </div>
   );

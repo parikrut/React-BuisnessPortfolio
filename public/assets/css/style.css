@@ -101,6 +101,7 @@ h6 {
 .lead {
     font-size: 1.0625rem;
     font-weight: 300;
+    color:black;
 }
 
 .font-weight-500 {
@@ -1439,12 +1440,10 @@ PAGE BANNER
 CONTACT PAGE
 -----------------------------*/
 
-#contact-info{
-    padding-top: 90px;
-}
+
 .contact-info-block{
     border: 1px solid#eee;
-    padding: 40px 20px;
+    padding: 30px;
     border-radius: 5px;
 }
 .contact-info-block h4{

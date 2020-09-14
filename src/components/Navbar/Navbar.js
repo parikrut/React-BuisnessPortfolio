@@ -11,8 +11,8 @@ class Navbar extends Component {
               <div className="row align-items-center">
                 <div className="col-lg-6 col-md-6">
                   <div className="top-bar-left text-white">
-                    <i className="fa fa-map-marker"></i>
-                    <span className="ml-2">Address xyz.....</span>
+                  <a href="https://www.google.ca/maps/place/48+Kingknoll+Dr,+Brampton,+ON+L6Y+3G6/@43.6524227,-79.7451813,17z/data=!3m1!4b1!4m5!3m4!1s0x882b155e4b87744f:0x60e236559d8b40b4!8m2!3d43.6524188!4d-79.7429926"><i className="fa fa-map-marker"></i>
+                    <span className="ml-2 text-white">Visit Us &nbsp;</span></a> 
                   </div>
                 </div>
 
@@ -41,23 +41,26 @@ class Navbar extends Component {
 
                 <div className="col-lg-8 justify-content-end ml-lg-auto d-flex col-12">
                   <div className="top-info-block d-inline-flex">
+                    
                     <div className="icon-block">
                       <i className="ti-mobile"></i>
                     </div>
-                    <div className="info-block">
+                    <a href="tel:789-789-7897">
+                    <div className="info-block text-muted">
                       <h5 className="font-weight-500">+7809346657</h5>
                       <p>Call Free</p>
-                    </div>
+                    </div></a>
                   </div>
 
                   <div className="top-info-block d-inline-flex">
-                    <div className="icon-block">
+                    <div className="icon-block ">
                       <i className="ti-email"></i>
                     </div>
-                    <div className="info-block">
+                    <a href="mailto:4krutikparikh@gmail.com">
+                    <div className="info-block text-muted">
                       <h5 className="font-weight-500">info@example.com</h5>
                       <p>Email Us</p>
-                    </div>
+                    </div></a>
                   </div>
                   <div className="top-info-block d-inline-flex">
                     <div className="icon-block">
@@ -78,7 +81,7 @@ class Navbar extends Component {
             <nav className="navbar navbar-expand-lg navbar-dark bg-primary main-nav navbar-togglable">
 
                 <a className="navbar-brand d-lg-none d-block" href="">
-                    <h4>Krutik Pipeline</h4>
+                    <h4>Universal Pipeline</h4>
                 </a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="fa fa-bars"></span>
@@ -88,20 +91,29 @@ class Navbar extends Component {
                     <ul className="navbar-nav ">
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" href="#" id="navbarWelcome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Home
+                                Products
                             </a>
                             <div className="dropdown-menu" aria-labelledby="navbarWelcome">
                                  <a className="dropdown-item " href="index.html">
-                                    Home-1
+                                    Braided Hose
                                 </a>
                                 <a className="dropdown-item " href="index-2.html">
-                                    Home-2
+                                    Suction Hose
                                 </a> 
                                 <a className="dropdown-item " href="index-3.html">
-                                    Home-3
+                                    HDPE Pipes & Sheets
                                 </a>
                                 <a className="dropdown-item " href="index-4.html">
-                                    Home-4
+                                    CPVC Pipes & Fittings
+                                </a>
+                                <a className="dropdown-item " href="index-4.html">
+                                    Flat Hose
+                                </a>
+                                <a className="dropdown-item " href="index-4.html">
+                                    UPVC Pipes & Fittings
+                                </a>
+                                <a className="dropdown-item " href="index-4.html">
+                                    Water Tanks
                                 </a>
                             </div>
                         </li>
@@ -115,18 +127,7 @@ class Navbar extends Component {
                                 Services
                             </a>
                         </li>
-                        <li className="nav-item ">
-                            <a href="pricing.html" className="nav-link js-scroll-trigger">
-                                Pricing
-                            </a>
-                        </li>
-
-                        <li className="nav-item ">
-                            <a href="project.html" className="nav-link js-scroll-trigger">
-                                Projects
-                            </a>
-                        </li>
-
+        
                         <li className="nav-item ">
                             <a href="contact.html" className="nav-link">
                                 Contact
