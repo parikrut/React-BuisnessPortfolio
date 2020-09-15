@@ -123,9 +123,9 @@ class Contact extends Component {
                             </div>
                         </div>
 
-                        <div className="">
-                        {status === "SUCCESS" ? <p>Thanks!</p> : <button className="btn btn-primary btn-circled" >Send Message</button>}
-                        {status === "ERROR" && <p>Ooops! There was an error.</p>}
+                        <div className="mx-auto p-3">
+                        {status === "SUCCESS" ? <p className="small pt-3"> Thanks!</p> : <button className="btn btn-primary btn-circled" >Send Message</button>}
+                        {status === "ERROR" && <p className="small pt-3">Ooops! There was an error.</p>}
                            
                         </div>
                     </form>
@@ -133,35 +133,35 @@ class Contact extends Component {
 
                         <div className="col-lg-6 col-md-6">
                             <section id="contact-info">
-                                <div class="container">
-                                    <div class="row justify-content-center">
-                                        <div class="col">
-                                            <div class="contact-info-block text-center">
+                                <div className="container">
+                                    <div className="row justify-content-center">
+                                        <div className="col">
+                                            <div className="contact-info-block text-center">
                                             <a href="https://www.google.ca/maps/place/48+Kingknoll+Dr,+Brampton,+ON+L6Y+3G6/@43.6524227,-79.7451813,17z/data=!3m1!4b1!4m5!3m4!1s0x882b155e4b87744f:0x60e236559d8b40b4!8m2!3d43.6524188!4d-79.7429926">
-                                                <i class="ti-mobile"></i>
+                                                <i className="ti-mobile"></i>
                                                 <h4>Address</h4>
-                                                <p class="lead">153 Williamson Plaza, 09514</p></a>
+                                                <p className="lead">153 Williamson Plaza, 09514</p></a>
                                             </div>
                                         </div>
                                         </div>
-                                        <div class="row justify-content-center">
-                                        <div class="col">
-                                            <div class="contact-info-block text-center">
+                                        <div className="row justify-content-center">
+                                        <div className="col">
+                                            <div className="contact-info-block text-center">
                                             <a href="mailto:4krutikparikh@gmail.com">
-                                                <i class="ti-envelope"></i>
+                                                <i className="ti-envelope"></i>
                                                 <h4>Email</h4>
-                                                <p class="lead">supportdb@dthememascot.com</p></a>
+                                                <p className="lead">supportdb@dthememascot.com</p></a>
                                             </div>
                                         </div>
                                         </div>
-                                        <div class="row justify-content-center">
-                                        <div class="col">
-                                            <div class="contact-info-block text-center">
+                                        <div className="row justify-content-center">
+                                        <div className="col">
+                                            <div className="contact-info-block text-center">
                                             <a href="tel:789-789-7897">
 
-                                                <i class="ti-mobile"></i>
+                                                <i className="ti-mobile"></i>
                                                 <h4>Phone Number</h4>
-                                                <p class="lead">+23-68017684</p></a>
+                                                <p className="lead">+23-68017684</p></a>
                                             </div>
                                         </div>
                                     </div>

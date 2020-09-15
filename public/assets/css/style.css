@@ -22,7 +22,9 @@
 
 @import url('https://fonts.googleapis.com/css?family=Muli:300,400,500,700,900');
 
-
+.btn-pad{
+    padding-bottom: 10px;
+}
 
 html {
     font-family: sans-serif;
