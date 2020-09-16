@@ -5,10 +5,10 @@ class Airhose extends Component {
         return (
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-8">
+                    <div class="col">
                         <img src="assets/img/Airhose.jpg" class="img-thumbnail" />
                     </div>
-                    <div class="col-4">
+                    <div class="col">
 
                         <table class="table">
                             <tbody>
