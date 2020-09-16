@@ -106,30 +106,16 @@ function App() {
 
                 <div className="collapse navbar-collapse" id="navbarCollapse">
                   <ul className="navbar-nav">
-                    <li className="nav-item dropdown" data-toggle="dropdown">
-                      <NavLink className =" nav-link text-white" to="/Product">Products</NavLink>
+                    {/* <i class="fas fa-caret-down"></i> */}
+                    <li className="nav-item dropdown" id="navbarWelcome" >
+                      <NavLink className =" nav-link text-white"  to="/Product">Products <i className="fas fa-caret-down"></i> </NavLink>
                       <div className="dropdown-menu" >
-                        <a className="dropdown-item">
-                          <NavLink to="/Product/BraidedHose"> Braided Hose</NavLink>
-                        </a>
-                        <a className="dropdown-item " >
-                          Suction Hose
-                                </a>
-                        <a className="dropdown-item " >
-                          HDPE Pipes & Sheets
-                                </a>
-                        <a className="dropdown-item " >
-                          CPVC Pipes & Fittings
-                                </a>
-                        <a className="dropdown-item " >
-                          Flat Hose
-                                </a>
-                        <a className="dropdown-item " >
-                          UPVC Pipes & Fittings
-                                </a>
-                        <a className="dropdown-item " >
-                          Water Tanks
-                                </a>
+                      <NavLink className="dropdown-item" to="/Product"> Braided Hose</NavLink>
+                      <NavLink className="dropdown-item" to="/Product"> HDPE Pipes & Sheets</NavLink>
+                      <NavLink className="dropdown-item" to="/Product"> CPVC Pipes & Fittings</NavLink>
+                      <NavLink className="dropdown-item" to="/Product"> Flat Hose</NavLink>
+                      <NavLink className="dropdown-item" to="/Product"> UPVC Pipes & Fittings</NavLink>
+                      <NavLink className="dropdown-item" to="/Product"> Water Tanks</NavLink>
                       </div>
                     </li>
                     <li className="nav-item ">
@@ -165,6 +151,7 @@ function App() {
                 <Route path="/Contact" component={Contact}/>
                 <Route path="/Services" component={Services}/>
                 <Route path="/Product" component={Product}/>
+                <Route path="/BraidedHose" component={BraidedHose}/>
                 <Route path="/Enquiry" component={Enquiry}/>
 
             </Switch>

@@ -13,6 +13,7 @@
     "bootstrap": "^4.5.2",
     "material-components-web": "^7.0.0",
     "mdbreact": "^4.27.0",
+    "motion-ui": "^2.0.3",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
